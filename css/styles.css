@@ -4,12 +4,19 @@
   --accent-color: #2196f3;
 }
 
+/* Body */
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* Header */
+
 header {
   background-color: #ffffff;
 }
 
 .logo-span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -22,14 +29,15 @@ header {
 }
 
 .link-nav:hover,
-.link-nav:focus {
+.link-poc:hover,
+.link-nav:focus,
+.link-poc:focus {
   color: var(--accent-color);
 }
 
 .link-nav,
-.poc {
+.link-poc {
   text-decoration: none;
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -37,8 +45,120 @@ header {
   color: var(--title-text-color);
 }
 
-.poc:hover,
-.poc:focus {
+/* Main */
+
+/* Герой */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  margin: 0 auto;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Секція advantages */
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Секція projects */
+.projects h2,
+.team-cards h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* Секція - Наша команда */
+.team-cards {
+  background-color: #f5f4fa;
+}
+
+.team-cards h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-cards p3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+footer {
+  background-color: #2f303a;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+
+.address p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address a:hover,
+.address a:focus {
   color: var(--accent-color);
 }
 
