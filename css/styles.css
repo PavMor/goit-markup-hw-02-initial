@@ -7,6 +7,7 @@
 /* Body */
 body {
   font-family: Roboto, sans-serif;
+  color: #212121;
 }
 
 /* Header */
@@ -38,7 +39,6 @@ header {
 .link-nav,
 .link-poc {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -74,6 +74,7 @@ header {
   letter-spacing: 0.06em;
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -93,7 +94,6 @@ header {
 }
 
 .advantages p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -125,7 +125,6 @@ header {
 }
 
 .team-cards p3 {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -142,7 +141,6 @@ footer .logo {
 }
 
 .address p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -150,7 +148,6 @@ footer .logo {
 }
 
 .address a {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
