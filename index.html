@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Logo is included to navbar and composed with link and text, without picture. E-mail and cell phone number are not a part of navbar -->
-    <header>
+    <header class="page-header">
       <nav>
         <!-- Logo -->
-        <a href="./index.html" lang="en"> WebStudio</a>
-        <ul>
+        <a href="./index.html" lang="en" class="logo"> WebStudio</a>
+        <ul class="site-nav">
           <li><a href="/index.html">Студія</a></li>
           <li><a href="/index.html">Портфоліо</a></li>
           <li><a href="/index.html">Контакти</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="point-of-contact">
         <li><a href="/index.html">info@devstudio.com</a></li>
         <li><a href="/index.html">+38 096 111 11 11</a></li>
       </ul>
@@ -28,38 +29,38 @@
 
     <main>
       <!-- h1 heading is mentioned once per document and devided by two rows. Separate blocks are depicted by sections. -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button type="button">Замовити послугу</button>
+        <button type="button" class="hero-btn">Замовити послугу</button>
       </section>
 
-      <section>
+      <section class="advantages">
         <h2 hidden>Складові</h2>
         <ul>
-          <li>
+          <li class="attention-to-details">
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="punctuality">
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="planning">
             <h3>ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="modern-technology">
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -68,10 +69,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="projects">
         <h2>Чим ми займаємося</h2>
         <ul>
-          <li>
+          <li class="desktop-apps">
             <img
               src="./images/desktop_apps_dev.jpg"
               alt="Десктопні застосунки"
@@ -79,7 +80,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="mobile-apps">
             <img
               src="./images/mobile_apps_dev.jpg"
               alt="Мобільні застосунки"
@@ -87,7 +88,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="design-decision">
             <img
               src="./images/web_design.jpg"
               alt="Дизайнерські рішення"
@@ -98,11 +99,11 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team-cards">
         <!-- Initial tegs are layed out to create cards in separate divs -->
         <h2>Наша команда</h2>
         <ul>
-          <li>
+          <li class="card-one">
             <img
               src="./images/igor_demianenko.jpg"
               alt="фото Ігоря Дем'яненко"
@@ -114,7 +115,7 @@
               <p>Product Designer</p>
             </div>
           </li>
-          <li>
+          <li class="card-two">
             <img
               src="./images/olga_repina.jpg"
               alt="фото Ольги Рєпіної"
@@ -126,26 +127,26 @@
               <p>Frontend Developer</p>
             </div>
           </li>
-          <li>
+          <li class="card-three">
             <img
               src="./images/mykola_tarasov.jpg"
               alt="фото Миколи Тарасова"
               width="270"
               height="260"
             />
-            <div class="container3">
+            <div>
               <h3>Микола Тарасов</h3>
               <p>Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="card-four">
             <img
               src="./images/mykhaylo_yermakov.jpg"
               alt="фото Михайла Єрмакова"
               width="270"
               height="260"
             />
-            <div class="container4">
+            <div>
               <h3>Михайло Єрмаков</h3>
               <p>UI Designer</p>
             </div>
@@ -157,8 +158,8 @@
     <footer>
       <!-- Address teg is used -->
       <!-- Logo -->
-      <a href="./index.html" lang="en"> WebStudio</a>
-      <address>
+      <a href="./index.html" lang="en" class="logo"> WebStudio</a>
+      <address class="address">
         <p>м. Київ, пр-т Лесі Українки, 26 <br /></p>
         <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
         <a href="tel:+380961111111">+38 096 111 11 11</a>
