@@ -1,0 +1,47 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.logo-span {
+  color: #2196f3;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+
+.link-nav,
+.poc {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.poc:hover,
+.poc:focus {
+  color: var(--accent-color);
+}
+
+li {
+  list-style-type: none;
+}
