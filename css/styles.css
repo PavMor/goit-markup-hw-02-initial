@@ -1,3 +1,5 @@
+/* index.html */
+
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
@@ -136,7 +138,7 @@ body {
   background-color: #2f303a;
 }
 
-footer .logo {
+.bottom > .logo {
   color: #ffffff;
 }
 
@@ -161,4 +163,44 @@ footer .logo {
 
 li {
   list-style-type: none;
+}
+
+/* portfolio.html */
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* div filtr */
+
+.filtr h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.filtr p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
