@@ -180,6 +180,8 @@ li {
   background-color: #f5f4fa;
   color: var(--title-text-color);
   cursor: pointer;
+  margin: 3px 2.5px;
+  padding: 3px, 2.5px;
 }
 
 .btn:hover,
